@@ -8,143 +8,89 @@
 
 
  }
- header{
-    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(2, 0, 0, 0.7)),url('../img/back.jpg');
- 
-
-      height: 100vh;
- }
- 
- 
-  section{
-      display: flex;
-      flex-direction: column;
-       align-items: center;
-       padding: 110px 100px;
-
-  }
- 
-  @media(max-width: 1000px){
-      section{
-          padding: 100px 50px;
-      }
-  }
-  @media(max-width: 600px){
-    section{
-        padding: 125px 30px;
-    }
-}
-.scetion{
-    padding-top: 10px;
-     float: right;
-     text-align: right;
-
-     
-
-
-}
- header{
-     position: absolute;
-      top:0%;
-      left:0%;
-      z-index: 10px;
-      width: 100%;
-       justify-content: space-around;
+ header, .background{
+    background:  radial-gradient(rgba(0, 0, 0, 0.6),rgba(2, 0, 0, 0.5)),url('../img/back.jpg');
+      height: 70vh;
+      background-size: cover;
 
  }
- @media(max-width: 1000px){
-    header{
-        padding: 20px 50px;
-    }
-}
-
-@media(max-width: 700px){
-    header{
-flex-direction: column;
-    }
-     haeder h1{
-          margin-bottom: 15px;
-          color: red;
-          
-
-     }
-     
-}
- .box{
-     position: relative;
-      justify-content: center;
-      min-height: 100vh;
-       text-align: center;
-
- }
- .box1 {
-     
-     position: absolute;
-      top: 0%;
-       left:0%;
-       width:100%;
-        height: 100%;
-        object-fit: cover;
-        z-index: -1;
-        background-image: url("../img/back.jpg"), linear-gradient(black);
-
- }
- .box h2,h3,h4{
-     margin-bottom: 15px;
-     text-transform: unset;
-     color: white;
-      font-family: nexa;
-       
-      
-
-
- }
- .box h2{
-     font-size: 50px;
+ .background_bttn h1{
+     color: red;
+      font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-left: 30px;
+     font-size: 40px;
      font-weight: bold;
 
+
  }
-  .box h3{
-      font-size: 25px;
-  } .box h4{
-      font-size: 17px;
-  }
- .box input{
-     width: 300px;
-     height: 35px;
-     background: white;
-     padding: 15px 15px;
-      border: 2px solid white;
-      transition: all 5s;
+ .massage{
+    
+    color: white;
+    height: 200px;
+    padding-top: 100px;
+   
+
+
+
  }
- .box a{
-     
-     position:relative; 
-      top:-240px;
-      right: -650px;;
+ .massage h1{
+align-items: center;
+justify-content: center;
+display: flex;
+font-size: 50px;font-weight: bold;font-family: Arial, Helvetica, sans-serif;
+word-spacing: 5px;
  }
-  .head{
-      color: red;
-      font-size: 40px;
-      font-weight: bold;
-      padding-top: 20px;
-      padding-left: 50px;
-  }
-  .btn{
+ .massage h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;font-family: Arial, Helvetica, sans-serif; font-size: 22px;
+ } 
+ .massage p{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    margin-left: -10px;
 
- border: 3px solid red;
- background-color: red;
- color: white;
- height: 40px;
- font-size: 17px;
- font-weight: bold;
- border-radius: 7px;
- text-align: right;
+ }  
+ .massage_input{
+     width: 380px;
+     height: 55px;
+     padding-left: 8px;
+     font-size: 14px;
+ } 
+ .massage_input1{
+    width: 200px;
+    height: 55px;
+     background-color: red;
+     border: red;
+     padding-left: 20px;
+       font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        color: white !important ;
+        
+ }
 
 
-  }
+ 
+ .background_bttn a button{
+     background-color: red; float: right; 
+     margin-right: 20px;
+     width: 70px;
+     height: 30px;
+      color: white;
+       font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border: red;
+        border-radius: 2px;
+        margin-top: -50px;
+        margin-right: 50px;
 
 
+ }
+ 
 
 
 
@@ -395,7 +341,7 @@ color: white;
  /*
  image 4
  */
- 
+
 .picture{
 padding-left: 200px;
 padding-top: 100px;
