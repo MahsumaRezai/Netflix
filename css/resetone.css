@@ -4,36 +4,62 @@
      box-sizing: border-box;
 }
  body{
-      font-family: nexa;
+      font-family: "Roboto", sans-serif;
 
 
  }
+ /*
+ head section
+ */
  header, .background{
-    background:  radial-gradient(rgba(0, 0, 0, 0.6),rgba(2, 0, 0, 0.5)),url('../img/back.jpg');
+    background:  radial-gradient(rgba(0, 0, 0, 0.6),rgba(2, 0, 0, 0.7)),url('../img/back.jpg');
       height: 70vh;
       background-size: cover;
 
  }
- .background_bttn h1{
-     color: red;
-      font-family: Arial, Helvetica, sans-serif;
-    padding-top: 20px;
-    padding-left: 30px;
-     font-size: 40px;
-     font-weight: bold;
 
+ .backgroun_btn{
+     float: right;
+     margin-top: 20px;
+     margin-right: 70px;
+     
+
+
+ }
+ button{
+    border-radius: 3px;
+
+ }
+ .backgroun_btn a button{
+     background-color: red;
+     width: 70px;
+     height: 30px;
+     border: red;
+      border-radius: 20px red;
+      color: white;
+       font-family: "Roboto", sans-serif;
+       font-size:13px;
+
+ }
+ svg{
+     padding-top: 20px;
+     padding-left: 60px;
+ }
+ path{
+    font-size: large;
 
  }
  .massage{
     
     color: white;
     height: 200px;
-    padding-top: 100px;
+    padding-top: 5px;
    
 
 
 
  }
+ 
  .massage h1{
 align-items: center;
 justify-content: center;
@@ -54,22 +80,30 @@ word-spacing: 5px;
     margin-left: -10px;
 
  }  
+ .address massage_input ,massage_input1
+ {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+ }
  .massage_input{
      width: 380px;
-     height: 55px;
+     height: 62px;
      padding-left: 8px;
      font-size: 14px;
+     
  } 
  .massage_input1{
     width: 200px;
-    height: 55px;
+    height: 60px;
      background-color: red;
      border: red;
-     padding-left: 20px;
-       font-size: 20px;
+     padding-left: 10px;
+       font-size: 25px;
         font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
         color: white ;
+
+    
 
  }
 
@@ -78,11 +112,11 @@ word-spacing: 5px;
  .background_bttn a button{
      background-color: red; float: right; 
      margin-right: 20px;
-     width: 70px;
+     width: 60px;
      height: 30px;
       color: white;
        font-family: Arial, Helvetica, sans-serif;
-        font-size: 15px;
+        font-size: 13px;
         border: red;
         border-radius: 2px;
         margin-top: -50px;
@@ -118,7 +152,7 @@ word-spacing: 5px;
   }
   
   .footer-dark ul a {
-    color:inherit;
+    color:white;
     text-decoration:none;
     opacity:0.6;
   }
