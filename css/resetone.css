@@ -393,16 +393,84 @@ color: white;
 position: absolute;
 
 
+
   }
+  .image_vido1 ,img, video{
+    position: absolute;
+    
+    
+    
+      }
+      .image_tv, video{
+        top:20px;
+        left:110px;
+        margin-left: -50px;
+        bottom: 0px;
+        margin-right: -0px;
+    
+        
+        
+        }
+  .container1 {
+    width: 100%;
+    min-height: 430px;
+    margin-top: -150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: left;
+    position: relative;
+    gap: 20px 10px;
+  }
+ 
+ 
   .image_tv, video{
-    top:20px;
+    top:10x;
     left:110px;
     margin-left: -50px;
     bottom: 0px;
-    margin-right: -00px
+    margin-right: -0px;
+
     
     
     }
+    .text1 h1 {
+        font-size: 40px;
+        font-family: sans-serif;
+        font-weight: bold;
+    align-items: initial;
+
+      }
+      
+     
+      .text1 p {
+        font-size: 20px;
+        margin-top: 7px;
+        font-family: sans-serif;
+        color: white;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+
+      }
+      
+  .text1 {
+    
+    margin-bottom: -300px;
+    margin-right: 630px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    align-self: center;
+    align-content: center;
+    
+
+  }
+    
+  
     .text h1 {
         font-size: 40px;
         font-family: sans-serif;
@@ -426,7 +494,7 @@ position: absolute;
   .text {
     
     margin-bottom: -300px;
-    margin-right: 600px;
+    margin-right: 630px;
     color: white;
     display: flex;
     flex-direction: column;
@@ -437,8 +505,42 @@ position: absolute;
     
 
   }
-   .hr{
+   hr{
        margin-top: 0%;
        color: #9e9e9e;
+    border: 3px solid gray;
+
        
    }
+  /* imge 4*/
+  .our-story-card animation-card{
+      width: 100%;
+      height: 400px;
+  }
+ 
+.our-story-card-title{
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+.our-story-card-subtitle{
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+.our-story-card-text{
+float: right;  
+margin-right: 350px; 
+margin-top: -40px; 
+}
+.our-story-card-img{
+    margin-left: 350px;
+    margin-top: -200px;
+
+
+
+}
