@@ -1,0 +1,105 @@
+body{
+    background-color: #000;
+    font-family:  sans-serif;
+    align-items: center;
+    margin-bottom: 100px;
+    
+  }
+  .row{
+   justify-content: center;   
+   display: flex;
+ margin-left: 500px;
+   width: 700px;
+  }
+  
+  .containerrow h1{
+    color: #fff;
+    text-align: center;
+    margin-left: 120px;
+margin-top: 50px;
+margin-bottom: 50px;
+font-size: 35px;
+ font-family: sans-serif;
+ font-weight: bold;
+  }
+  
+  details{
+    background-color: #303030;
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  summary {
+    padding: .5em 1.3rem;
+    display: flex;
+    transition: height 1s ease; font-family: sans-serif
+
+  }
+  
+  summary::-webkit-details-marker {
+    display: none;
+  }
+  
+  summary:after{
+    content: "\002B";
+        margin-left: 450px
+  }
+  
+  details[open] summary {
+      border-bottom: 1px solid #aaa;
+      margin-bottom: .5em;
+  }
+  
+  details[open] summary:after{
+    content: "\00D7";
+  }
+  
+  details[open] div{
+    padding: .5em 1em;
+  }
+  /* two */
+  .sum2:after{
+    content: "\002B";
+        margin-left: 300px
+  }
+  /* three */
+  .sum3:after{
+    content: "\002B";
+        margin-left: 410px
+  }
+  /*sum4 */
+  .sum4:after{
+    content: "\002B";
+        margin-left: 430px
+  }
+  /* sum5*/
+
+.sum5:after{
+    content: "\002B";
+        margin-left: 320px
+}
+
+/* sum6 */
+
+.sum6:after{
+    content: "\002B";
+        margin-left: 370px
+}
+
+div{
+     font-size: 20px;
+      font-family: sans-serif;
+
+}
+/*input */
+.output{
+    margin-left: 100px;
+    margin-top: 30px;
+    margin-bottom: 100px
+
+}
+.output p{
+     color: white;
+     margin-bottom: 20px;
+     margin-top: 50px;
+}
