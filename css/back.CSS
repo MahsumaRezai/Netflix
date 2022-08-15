@@ -76,8 +76,8 @@ img {
 .showcase-content {
 	position: relative;
 	z-index: 2;
-	width: 380px;
-	height: 600px;
+	width: 400px;
+	height: 550px;
 	background: rgb(0, 0, 0, 0.65);
 	margin: 0 auto;
 	display: flex;
@@ -95,6 +95,7 @@ img {
 .formm {
 	width: 100%;
 	margin-bottom: 40px;
+	
 }
 
 .formm .info {
@@ -186,6 +187,7 @@ input[type=password] {
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	 font-size: 15px;
 }
 
 .signup p {
